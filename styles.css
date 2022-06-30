@@ -98,7 +98,7 @@ body {
 
   .nav-menu {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(5, auto);
     background: var(--pinky);
     margin: 0;
     width: 100%;
