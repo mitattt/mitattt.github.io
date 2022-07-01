@@ -57,6 +57,7 @@ body {
   text-align: center;
   width: 70%;
   justify-self: end;
+  z-index: 2;
 }
 
 .nav-links {
@@ -309,6 +310,18 @@ p {
   font-size: 0.9rem;
   margin-top: 1.5rem;
   text-decoration: none;
+}
+
+p a {
+  color: black;
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
+  text-decoration: none;
+}
+
+p a:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.1s ease-in-out;
 }
 
 ::-webkit-scrollbar {
