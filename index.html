@@ -1,72 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Java info</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-    <style>
-      .rounded-img {
-        width: 60%;
-        border-radius: 50%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-        padding: 0.35em;
-        margin-bottom: 1em;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="nav-container">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>MITSTORE</title>
+      <link rel="stylesheet" href="styles.css" />
+      <link
+         rel="stylesheet"
+         href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+         crossorigin="anonymous"
+      />
+   </head>
+   <body>
+      <!-- Navbar Section -->
       <nav class="navbar">
-        <h1 id="navbar-logo">MITSTORE</h1>
-        <div class="menu-toggle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <ul class="nav-menu">
-          <li><a href="vids.html" class="nav-links">Products</a></li>
-          <li><a href="index.html" class="nav-links">Home</a></li>
-          <li>
-            <a href="singup.html" class="nav-links nav-links-btn">Sign Up</a>
-          </li>
-        </ul>
+         <div class="navbar__container">
+            <a href="#home" id="navbar__logo">MITSTORE</a>
+            <div class="navbar__toggle" id="mobile-menu">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+               <li class="navbar__item">
+                  <a href="#home" class="navbar__links" id="home-page">Home</a>
+               </li>
+               <li class="navbar__item">
+                  <a href="#about" class="navbar__links" id="about-page"
+                     >About</a
+                  >
+               </li>
+               <li class="navbar__item">
+                  <a href="#products" class="navbar__links" id="products-page"
+                     >Products</a
+                  >
+               </li>
+               <li class="navbar__btn">
+                  <a href="#sign-up" class="button" id="signup">Sign Up</a>
+               </li>
+            </ul>
+         </div>
       </nav>
-    </div>
-    <div class="container text-center my-5">
-      <div class="row">
-        <div class="col-lg-4 mx-auto">
-          <img class="rounded-img" src="bin.jpg" alt="Trash" />
-          <h1 class="fw-light">trash</h1>
-          <p class="lead text-muted">
-            Every person knows thath Java is trash. Garbage garbage garbage
-            garbage garbage
-          </p>
-          <a
-            href="https://www.amherst.edu/offices/it/knowledge_base/computers-mobile-devices/java/windows-computers-uninstall-java#:~:text=Go%20to%20the%20Windows%20Start,the%20list%20and%20uninstall%20it."
-            target="_blank"
-            class="btn btn-primary"
-          >
-            Delete
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UC_Wxxd6Ss4uPgCACvqZ4k-A"
-            target="_blank"
-            class="btn btn-secondary"
-          >
-            YouTube
-          </a>
-        </div>
+      <!-- Hero section -->
+      <div class="hero" id="home">
+         <div class="hero__container">
+            <h1 class="hero__heading">Choose your <span>type</span></h1>
+            <p class="hero__description">Ultimited Possibilities</p>
+            <button class="main__btn">
+               <a
+                  href="https://www.youtube.com/channel/UC_Wxxd6Ss4uPgCACvqZ4k-A"
+                  >Explore</a
+               >
+            </button>
+         </div>
       </div>
-    </div>
-  </body>
+      <!-- About section -->
+      <div class="main" id="about">
+         <div class="main__container">
+            <div class="main__img--container">
+               <div class="main__img--card">
+                  <img src="image.jpg" class="Gimage" alt="" />
+               </div>
+            </div>
+            <div class="main__content">
+               <h1>What do i do?</h1>
+               <h2>I make amv`s</h2>
+               <p>Subscribe to my channel to see more</p>
+               <button class="main__btn">
+                  <a href="https://www.youtube.com/c/mitattt" target="_blank"
+                     >Subscribe</a
+                  >
+               </button>
+            </div>
+         </div>
+      </div>
+
+      <!-- products section -->
+
+      <div class="products" id="products">
+         <h1>My Products</h1>
+         <div class="products__wrapper">
+            <div class="products__card">
+               <h2>『 Bike & Again 』DATTEBANE | flow edit |</h2>
+               <p>Song: bike and chains v2 on soundcloud by gunna</p>
+               <div class="products__btn"><button>Watch out</button></div>
+            </div>
+            <div class="products__card">
+               <h2>CAPO | jujutsu kaisen | amv</h2>
+               <p>Song: Capo NLE Choppa</p>
+               <div class="products__btn"><button>Watch out</button></div>
+            </div>
+            <div class="products__card">
+               <h2>money machine | amv</h2>
+               <p>Song: 100 gecs, Laura Les, Dylan Brady money machine</p>
+               <div class="products__btn"><button>Watch out</button></div>
+            </div>
+            <div class="products__card">
+               <h2>Soon...</h2>
+               <p>Song: september juno</p>
+               <div class="products__btn"><button>Watch out</button></div>
+            </div>
+         </div>
+      </div>
+      <!-- Features -->
+      <div class="main" id="sing-up">
+         <div class="main__container">
+            <div class="main__content">
+               <h1>Join to me</h1>
+               <h2>Sign up today</h2>
+               <p>Break your limits</p>
+               <button class="main__btn"><a href="#">Sign Up</a></button>
+            </div>
+            <div class="main__img--container">
+               <div class="main__img--card" id="card-card2">
+                  <img src="2.jpg" class="yami" alt="" />
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer -->
+      <div class="footer__container">
+         <div class="footer__links">
+            <section class="social__media">
+               <div class="social__media--wrap">
+                  <div class="footer__logo">
+                     <a href="/" id="footer__logo">MITSTORE</a>
+                  </div>
+                  <p class="website__rights">
+                     © MITSTORE 2022. All rights reserved
+                  </p>
+                  <div class="social__icons">
+                     <a
+                        href="https://www.instagram.com/mitattt.t/"
+                        class="social__icon--link"
+                        target="_blank"
+                        ><i class="fab fa-instagram"></i
+                     ></a>
+                     <a
+                        href="https://www.youtube.com/c/mitattt"
+                        class="social__icon--link"
+                        target="_blank"
+                        ><i class="fab fa-youtube"></i
+                     ></a>
+                     <a
+                        href="https://www.tiktok.com/@mitatted?lang=ru-RU"
+                        class="social__icon--link"
+                        target="_blank"
+                        ><i class="fab fa-tiktok"></i
+                     ></a>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </div>
+      <script src="app.js"></script>
+   </body>
 </html>
