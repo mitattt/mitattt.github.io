@@ -474,7 +474,7 @@ body {
    }
 }
 
-/* Services Section */
+/* Products Section */
 .products {
    background: #131313;
    display: flex;
@@ -561,13 +561,13 @@ body {
 }
 
 @media screen and (max-width: 1300px) {
-   .services__wrapper {
+   .products__wrapper {
       grid-template-columns: 1fr 1fr;
    }
 }
 
 @media screen and (max-width: 768px) {
-   .services__wrapper {
+   .products__wrapper {
       grid-template-columns: 1fr;
    }
 }
