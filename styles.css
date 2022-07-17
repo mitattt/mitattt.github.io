@@ -5,10 +5,6 @@
    font-family: "Kumbh Sans", sans-serif;
    scroll-behavior: smooth;
 }
-html,
-body {
-   overflow-x: hidden;
-}
 
 .navbar {
    background: #131313;
@@ -512,16 +508,10 @@ body {
    flex-direction: column;
    justify-content: center;
    color: #fff;
-   background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+   background-image: linear-gradient(to top, #9518fc 0%, #ff0844 100%);
    transition: 0.3s ease-in;
-   background-image: url("./1.png");
-}
-
-.products__card:nth-child(2) {
-}
-.products__card:nth-child(3) {
-}
-.products__card:nth-child(4) {
+   background-position: center;
+   background-size: cover;
 }
 
 .products__card h2 {
@@ -546,7 +536,8 @@ body {
    border: none;
    outline: none;
    border-radius: 4px;
-   background: #ff512f;
+   background: #dd2476;
+
    font-size: 1rem;
 }
 
